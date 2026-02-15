@@ -15,7 +15,7 @@ Donde una importante compañía de telecomunicaciones detectó una caída masiva
 
 #### 4. Decisión final basada en valor real , no en complejidad técnica. 
 
-          ###🏆 Resultados e Impacto: 
+###🏆Resultados e impacto
 
 *Capacidad de Detección (Recall): 98%. El modelo identifica casi la totalidad de los clientes en riesgo de abandono. 
 
