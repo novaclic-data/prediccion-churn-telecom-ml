@@ -44,6 +44,10 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 ### 💡 Recomendación Ejecutiva de Negocio 
 ** Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
 
+### ✨ Nota técnica 
+
+El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local. 
+
  
 
  
