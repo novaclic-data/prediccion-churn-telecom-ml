@@ -21,6 +21,7 @@ Donde una importante compañía de telecomunicaciones detectó una caída masiva
 
 *Patrón Crítico: Se detectó que el 60% del riesgo está concentrado en el comportamiento del mes de Agosto, permitiendo una ventana de intervención de 30 días antes de la fuga definitiva. 
 
+
 ### 📊 Visualización de Hallazgos Estratégicos 
  
 #### 1. La "Huella" del Abandono (Tendencia de Consumo) 
@@ -33,7 +34,9 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 ![Importancia de Meses](grafico_importancia.png) 
 *Conclusión Técnica: El comportamiento de Agosto es el predictor más fuerte (60% de peso), validando la hipótesis de que la fuga es un proceso progresivo y no un evento aleatorio.* 
  
---- 
+--- <img width="1000" height="500" alt="grafico_caida_consumo" src="https://github.com/user-attachments/assets/f4114a32-f0e1-4360-9e72-3b9890dbd5e9" />
+<img width="800" height="500" alt="grafico_importancia" src="https://github.com/user-attachments/assets/8d3d5e3a-81ba-4307-a9b9-741fedd255c0" />
+
  
 ### 💡 Recomendación Ejecutiva de Negocio 
 ** Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
