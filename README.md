@@ -1,4 +1,4 @@
-### 📊 CAPITULO 1: Prediccion de Churn en Telecomunicaciones mediante Machine Learning 
+## 📊 CAPITULO 1: Prediccion de Churn en Telecomunicaciones mediante Machine Learning 
 
 ### 📌 Contexto general 
 
@@ -52,7 +52,7 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 ### 🎯 El Desafio de negocio 
 No basta con saber *quién* se va, sino *cuánto* le cuesta a la empresa. En esta fase, analizamos el **ARPU (Average Revenue Per User)** para identificar si estamos perdiendo a nuestros clientes más valiosos (VIP) o a usuarios de bajo consumo. 
  
-### 📊 Hallazgos Criticos de Valor del Cliente (ARPU) 
+#### 📊 Hallazgos Criticos de Valor del Cliente (ARPU) 
 
 Al cruzar los datos de facturación con la fuga, obtuvimos una radiografía financiera reveladora: 
 No todas las fugas impactan igual al negocio. Tras segmentar el ARPU (Average Revenue Per User), descubrimos un hallazgo crítico: 
@@ -69,14 +69,14 @@ Clasificamos a los usuarios según su intensidad de uso en la red 3G:
 *   **Usuarios Normales:** Registran una tasa de fuga crítica del **97.5%**. 
 *   **Usuarios Pesados (>100MB):** Muestran una mayor retención, con una fuga del **72.3%**. 
  
-### 💡 Conclusion 
+#### 💡 Conclusion 
 
 Los clientes de mayor valor (VIP) muestran una lealtad un 74% superior a los clientes básicos. La "hemorragia" de clientes está concentrada en los segmentos de menor rentabilidad, lo que permite priorizar esfuerzos de retención en la base de clientes de alto valor para blindar los ingresos principales. 
 
-### 💰 Estrategia de Salvamento 
+#### 💰 Estrategia de Salvamento 
 ** Recomiendo una 'Retención Selectiva': blindar al segmento VIP ($468) con ofertas de fidelización, mientras se optimiza el costo de adquisición en el segmento básico, donde la lealtad es mínima.** 
 
-#### ✨  > **Nota técnica:** 
+##### ✨  > **Nota técnica:** 
 El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local. 
 
  
