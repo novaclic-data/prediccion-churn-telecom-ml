@@ -50,14 +50,14 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 ## 💎 CAPITULO 2: Analisis de Rentabilidad y Segmentacion (ARPU)  
 
 ### 🎯 El Desafio de negocio 
-No basta con saber *quién* se va, sino *cuánto* le cuesta a la empresa. En esta fase, analizamos el **ARPU (Average Revenue Per User)** para identificar si estamos perdiendo a nuestros clientes más valiosos (VIP) o a usuarios de bajo consumo. 
+No basta con saber **quién se va, sino cuánto** le cuesta a la empresa. En esta fase, analizamos el **ARPU (Average Revenue Per User)** para identificar si estamos perdiendo a nuestros clientes más valiosos (VIP) o a usuarios de bajo consumo. 
  
 #### 📊 Hallazgos Criticos de Valor del Cliente (ARPU) 
 
-Al cruzar los datos de facturación con la fuga, obtuvimos una radiografía financiera reveladora: 
+**Al cruzar los datos de facturación con la fuga, obtuvimos una radiografía financiera reveladora:** 
 No todas las fugas impactan igual al negocio. Tras segmentar el ARPU (Average Revenue Per User), descubrimos un hallazgo crítico: 
-*   ** Clientes Fieles (Churn 0): Tienen un gasto promedio de $468.1. ** 
-*   ** Clientes Fugados (Churn 1): Tienen un gasto promedio de $268.4. **
+*   **Clientes Fieles (Churn 0): Tienen un gasto promedio de $468.1.** 
+*   **Clientes Fugados (Churn 1): Tienen un gasto promedio de $268.4.**
 ![Diferencia de valor](grafico_arpu_valor.png)
 
 <img width="800" height="500" alt="grafico_arpu_valor" src="https://github.com/user-attachments/assets/a0937c79-5384-44d9-8dea-e6d4dee187fc" />
@@ -74,10 +74,10 @@ Clasificamos a los usuarios según su intensidad de uso en la red 3G:
 Los clientes de mayor valor (VIP) muestran una lealtad un 74% superior a los clientes básicos. La "hemorragia" de clientes está concentrada en los segmentos de menor rentabilidad, lo que permite priorizar esfuerzos de retención en la base de clientes de alto valor para blindar los ingresos principales. 
 
 ### 💰 Estrategia de Salvamento 
-** Recomiendo una 'Retención Selectiva': blindar al segmento VIP ($468) con ofertas de fidelización, mientras se optimiza el costo de adquisición en el segmento básico, donde la lealtad es mínima.** 
+*   **Recomiendo una 'Retención Selectiva': blindar al segmento VIP ($468) con ofertas de fidelización, mientras se optimiza el costo de adquisición en el segmento básico, donde la lealtad es mínima.** 
 
 ##### ✨  > **Nota técnica:** 
-##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local. 
+##### *   **El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local.** 
 
  
 
