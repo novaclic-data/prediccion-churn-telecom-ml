@@ -69,15 +69,15 @@ Clasificamos a los usuarios según su intensidad de uso en la red 3G:
 *   **Usuarios Normales:** Registran una tasa de fuga crítica del **97.5%**. 
 *   **Usuarios Pesados (>100MB):** Muestran una mayor retención, con una fuga del **72.3%**. 
  
-#### 💡 Conclusion 
+### 💡 Conclusion 
 
 Los clientes de mayor valor (VIP) muestran una lealtad un 74% superior a los clientes básicos. La "hemorragia" de clientes está concentrada en los segmentos de menor rentabilidad, lo que permite priorizar esfuerzos de retención en la base de clientes de alto valor para blindar los ingresos principales. 
 
-#### 💰 Estrategia de Salvamento 
+### 💰 Estrategia de Salvamento 
 ** Recomiendo una 'Retención Selectiva': blindar al segmento VIP ($468) con ofertas de fidelización, mientras se optimiza el costo de adquisición en el segmento básico, donde la lealtad es mínima.** 
 
 ##### ✨  > **Nota técnica:** 
-El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local. 
+##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local. 
 
  
 
