@@ -29,7 +29,9 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 ![Histograma de Caída](grafico_caida_consumo.png) 
 
 **Hallazgo: Identificamos un volumen masivo de clientes con una reducción drástica en el uso de datos 30 días antes de la cancelación.** 
+
 <img width="1000" height="500" alt="grafico_caida_consumo" src="https://github.com/user-attachments/assets/fd68e61b-b8ba-4978-9053-8d1d6743b715" />
+
 
 ---
  
@@ -46,6 +48,8 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
  
 ### 💰 Recomendación Ejecutiva de Negocio 
 **Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
+
+
 
 
 -----
