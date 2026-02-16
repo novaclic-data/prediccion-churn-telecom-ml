@@ -17,9 +17,9 @@ Donde una importante compañía de telecomunicaciones detectó una caída masiva
 
 ### 🏆 Resultados e impacto
 
-*Capacidad de Detección (Recall): 98%. El modelo identifica casi la totalidad de los clientes en riesgo de abandono. 
+**Capacidad de Detección (Recall): 98%. El modelo identifica casi la totalidad de los clientes en riesgo de abandono.** 
 
-*Patrón Crítico: Se detectó que el 60% del riesgo está concentrado en el comportamiento del mes de Agosto, permitiendo una ventana de intervención de 30 días antes de la fuga definitiva. 
+**Patrón Crítico: Se detectó que el 60% del riesgo está concentrado en el comportamiento del mes de Agosto, permitiendo una ventana de intervención de 30 días antes de la fuga definitiva.** 
 
 
 ### 📊 Visualización de Hallazgos Estratégicos 
@@ -27,22 +27,24 @@ Donde una importante compañía de telecomunicaciones detectó una caída masiva
 #### 1. La "Huella" del Abandono (Tendencia de Consumo) 
 Analizamos el histograma de caída de consumo, donde la línea roja marca el punto crítico de riesgo. 
 ![Histograma de Caída](grafico_caida_consumo.png) 
-*Hallazgo: Identificamos un volumen masivo de clientes con una reducción drástica en el uso de datos 30 días antes de la cancelación.* 
+**Hallazgo: Identificamos un volumen masivo de clientes con una reducción drástica en el uso de datos 30 días antes de la cancelación.** 
 <img width="1000" height="500" alt="grafico_caida_consumo" src="https://github.com/user-attachments/assets/fd68e61b-b8ba-4978-9053-8d1d6743b715" />
 
 ---
  
 #### 2. Lectura de Mente de la IA (Importancia de Variables) 
-¿Qué mira nuestro Bosque Aleatorio para decidir quién se va? 
+**¿Qué mira nuestro Bosque Aleatorio para decidir quién se va?** 
 ![Importancia de Meses](grafico_importancia.png) 
-*Conclusión Técnica: El comportamiento de Agosto es el predictor más fuerte (60% de peso), validando la hipótesis de que la fuga es un proceso progresivo y no un evento aleatorio.* 
+
+### 💡 ConclusionTécnica 
+**El comportamiento de Agosto es el predictor más fuerte (60% de peso), validando la hipótesis de que la fuga es un proceso progresivo y no un evento aleato rio.**
  
 
 <img width="800" height="500" alt="grafico_importancia" src="https://github.com/user-attachments/assets/8d3d5e3a-81ba-4307-a9b9-741fedd255c0" />
 
  
-### 💡 Recomendación Ejecutiva de Negocio 
-** Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
+### 💰 Recomendación Ejecutiva de Negocio 
+**Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
 
 -----
 
@@ -76,8 +78,7 @@ Los clientes de mayor valor (VIP) muestran una lealtad un 74% superior a los cli
 ### 💰 Estrategia de Salvamento 
 *   **Recomiendo una 'Retención Selectiva': blindar al segmento VIP ($468) con ofertas de fidelización, mientras se optimiza el costo de adquisición en el segmento básico, donde la lealtad es mínima.** 
 
-##### ✨  > **Nota técnica:** 
-##### *   **El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local.** 
+##### ✨  > **Nota técnica:** ##### *   **El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub, pero está disponible para su implementación local.** 
 
  
 
