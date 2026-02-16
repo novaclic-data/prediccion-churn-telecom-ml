@@ -53,3 +53,49 @@ joblib.dump(modelo_fuga, 'modelo_churn_vbc.pkl')
 print("\n✅ ¡PROCESO COMPLETADO!")
 print("👉 Mira en tu carpeta: 'grafico_importancia.png' ha sido creado.")
 print("👉 El modelo 'modelo_churn_vbc.pkl' está listo.")
+
+
+# 1. Creamos una marca para los "Heavy Users" (que usan más de 100MB)
+df['usuario_pesado'] = (df['aug_vbc_3g'] > 100).astype(int)
+
+# 2. Comparamos la fuga (churn) entre usuarios normales y pesados
+fuga_por_uso = df.groupby('usuario_pesado')['churn'].mean() * 100
+
+print("--- ¿Quiénes se fugan más? ---")
+print("0 = Usuario Normal | 1 = Usuario Pesado (Heavy User)")
+print(fuga_por_uso)
+
+# Esto acelerará el entrenamiento en tu laptop de 8GB
+modelo_fuga = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=42)
+
+# --- BUSCADOR DE MÉTRICAS DE DINERO Y VOZ ---
+columnas_interes = [c for c in df.columns if 'arpu' in c.lower() or 'mou' in c.lower()]
+
+print("--- MÉTRICAS CRÍTICAS ENCONTRADAS ---")
+print(columnas_interes[:10]) # Solo mostramos las primeras 10 para no saturar
+print(f"Total de métricas de Voz/Dinero: {len(columnas_interes)}")
+
+# Reemplaza 'NOMBRE_REAL' por el que encontraste arriba
+print("\n--- ¿QUIÉNES GASTAN MÁS: LOS QUE SE QUEDAN O LOS QUE SE VAN? ---")
+gasto_por_fuga = df.groupby('churn')['arpu_8'].mean()
+print(gasto_por_fuga)
+
+import matplotlib.pyplot as plt
+
+# 1. Datos que ya calculamos (Gasto promedio)
+categorias = ['Siguen (VIP)', 'Fugados (Básicos)']
+valores_arpu = [468.1, 268.4]
+
+# 2. Creamos la visualización
+plt.figure(figsize=(8, 5))
+plt.bar(categorias, valores_arpu, color=['#2ecc71', '#e74c3c']) # Verde para los fieles, Rojo para fuga
+
+# 3. Detalles de lujo
+plt.title('Diferencia de Valor: Clientes Fieles vs Fugados', fontsize=14)
+plt.ylabel('Gasto Promedio (ARPU)', fontsize=12)
+
+# 4. Guardamos la imagen (Busca el archivo en tu carpeta)
+plt.savefig("grafico_arpu_valor.png")
+plt.close()
+
+print("✅ ¡Gráfico de ARPU guardado con éxito!")
