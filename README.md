@@ -51,6 +51,9 @@ Analizamos el histograma de caída de consumo, donde la línea roja marca el pun
 
 **Recomiendo estabilizar ingresos identificando los puntos críticos donde se está generando churn. Para luego atacar primero al segmento con más reclamos en soporte, aplicando una mitigación inmediata mientras se mide el impacto.** 
 
+##### ✨ **Nota Técnica** 
+##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub y protocolos de seguridad, pero está disponible para su despliegue en entornos controlados.
+
 -----
 
 ## 💎 CAPITULO 2: Analisis de Rentabilidad y Segmentacion (ARPU)  
